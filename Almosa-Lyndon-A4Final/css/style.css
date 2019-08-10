@@ -1,0 +1,59 @@
+/* Font Imports
+–––––––––––––––––––––––––––––––––––––––––––––– */
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+@import url("https://use.typekit.net/zkc7kfd.css");
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+/* General Formatting
+–––––––––––––––––––––––––––––––––––––––––––––– */
+:root {
+    --main-bg-color:#E9EBE8;
+    --foreground-color:#000;
+    --logo-color:#00fa9a;
+    --highlight-color:#fff2ac;
+}
+body {
+  font-family: effra;
+  font-size: 1em;
+  line-height: 1.4;
+  background-color: var(--main-bg-color);
+  margin: 0;
+padding: 0;
+}
+/* Logo Stuff -> I removed icons, sorry Rocco :(
+–––––––––––––––––––––––––––––––––––––––––––––– */
+.logo {
+  text-align: center; 
+  align-self: center;
+  justify-self: center;
+position: absolute;
+}
+  
+.header {
+  text-decoration: none;
+  color: var(--foreground-color)
+}
+.logo-a {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  margin-right: 5em;
+  font-family: Fredoka One;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.3em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color:#000;
+  -webkit-text-stroke-width: 1.3px;
+  
+
+}
+
+
+
+.logo h1:hover
+{
+  color: red;
+}
